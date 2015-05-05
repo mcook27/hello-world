@@ -1,0 +1,162 @@
+body {
+padding:0px;
+margin:0px;
+
+background-color: #FFFFFF;
+
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#header{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10px;
+	width:800px;
+	height:160px;
+}
+
+h1
+{
+font-family:"Georgia", Georgia, serif;
+font-size:60px;
+font-variant:small-caps;
+color:#333333;
+height:60px;
+margin:0px;
+padding-top:40px;
+width:655px;
+float:left;
+}
+
+h2{
+font-family:"Georgia", Georgia, serif;
+font-size:25px;
+font-variant:small-caps;
+font-style:italic;
+color:#2E2E2E;
+}
+
+img.logo{
+	
+	height:150px;
+	width:144px;
+	float: left;
+}
+
+img.banner{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	min-width:1000px;
+}
+
+
+
+#content{
+	padding-bottom:150px; 
+	display:block;
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#info{
+	width:400px;
+	margin-right:50px;
+	margin-top:15px;
+	float:left;
+}
+
+p.blurb{
+	font-size: 16px;
+}
+
+#contactwrapper{
+	width:350px;
+	float:left;
+}
+ 
+#contact
+{
+	
+	background-color:#941e1e;
+	border-radius: 5px;
+	
+	padding:0px;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+p.contact
+{
+	padding-left:15px;
+	font-family:"Georgia", Georgia, serif;
+	font-size:1.1em;
+	color:white;
+}
+
+#gallery
+{
+	width:800px;
+	height: 100%;
+	margin:0px;
+	margin-top:0px;
+	padding:0px;
+	margin-bottom:20px;
+	clear:both;
+}
+
+img.gal
+{
+	height:260px;
+	width:260px;
+	margin:0px;
+	padding:0px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+}
+
+img.gal:hover
+{
+	border-color:#941e1e;
+	margin:0px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+
+}
+
+
+#footer{
+	
+	position:absolute;
+	bottom:0;
+	background-color:#2E2E2E;
+	width:100%;
+	height:150px;
+}
+
+#footercontent
+{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+p.footer
+{
+	padding-left:0px;
+	color:white;
+}
+
